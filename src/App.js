@@ -1,10 +1,10 @@
 import logo from './logo.svg';
-import './App.css';
+import AddUser from './Components/Users/AddUser';
 
 function App() {
   return (
-    <div className="App">
-      <h1>UserForm Add</h1>
+    <div className="">
+      <AddUser />
     </div>
   );
 }
