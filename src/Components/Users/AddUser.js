@@ -45,7 +45,7 @@ const myErrorHandler = () => {
 };
 
     return (
-        <div>
+        <React.Fragment>
         {error && <ErrorModal title={error.title} message={error.message} onHandleError={myErrorHandler}/>}
     <Card className={classes.input}>
     <form onSubmit={AddUserHandler}>
@@ -57,7 +57,7 @@ const myErrorHandler = () => {
         <Button type="submit">Add User</Button>
     </form>
     </Card>
-    </div>
+    </React.Fragment>
     )
 };
 
